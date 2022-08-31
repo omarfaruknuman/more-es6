@@ -11,4 +11,26 @@ const ten = numbers.filter(num => num % 10 === 0);
 // Problem 3
 const nums = [33, 50, 79, 78, 90, 101, 30];
 const result = nums.find(num => num % 10 === 0);
-console.log(result);
+// console.log(result);
+
+// Practice Problem
+// 1
+const student = {
+    name: 'Fredie',
+    age: 26,
+}
+// console.log(student.age);
+
+// 2
+let data = {
+    location: [
+        {
+            latitude: '34.5, 37.8',
+            loingitude: '98.77 , 58.7',
+            city: 'Hyderabad',
+            country: 'India',
+        }
+    ]
+};
+
+console.log(data.location.city);
